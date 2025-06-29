@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f8f8;
+  color: #111;
+}
+
+.bigger {
+  font-size: 11rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00ae4d; /* A clean professional green */
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #00ae4d;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero section styles */
+.hero {
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 50vh;
+  padding: 6rem 1rem;
+  background-color: #222;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('/public/img/homepage_background.jpg') right 60%/cover no-repeat;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline-banner {
+  background-color: rgba(255, 255, 255, 0.1); /* light overlay effect */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  color: #f1f1f1;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* .mission, .news {
+  padding: 2rem;
+  background: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+} */
+
+/* Footer styles */
+.footer {
+  margin-top: auto;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
