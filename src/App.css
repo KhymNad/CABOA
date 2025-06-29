@@ -3,21 +3,17 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f8f8f8;
   color: #111;
-  padding-top: 70px;
+  padding-top: 70px; /* assuming you have a fixed navbar */
 }
 
-.app {
+/* Main layout wrapper */
+.page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Footer styles */
-.footer {
-  margin-top: auto;
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
+/* Main content area */
+.content {
+  flex: 1;
 }

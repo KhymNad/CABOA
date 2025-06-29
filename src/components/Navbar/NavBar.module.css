@@ -29,7 +29,10 @@
   gap: 1.5rem;
   list-style: none;
   margin-right: 7rem;
+  padding-top: 1rem;
   padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .navLinks li a {

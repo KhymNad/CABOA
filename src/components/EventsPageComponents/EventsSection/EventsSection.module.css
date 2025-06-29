@@ -1,0 +1,70 @@
+.eventsSection {
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+  max-width: 1500px;
+  width: 1450px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2c3e50;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 23%;
+  background-color: #00ae4d;
+  border-radius: 2px;
+}
+
+/* Carousel container */
+.carousel {
+  padding-top: 0.4rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Horizontal scrolling track */
+.track {
+  display: flex;
+  width: fit-content;
+  gap: 1rem; /* control space between cards here */
+  animation: scroll 60s linear infinite;
+}
+
+/* Pause on hover */
+.paused .track {
+  animation-play-state: paused;
+}
+
+/* Single slide */
+.slide {
+  flex: 0 0 auto;
+  width: 320px;
+  margin-right: 12rem;
+}
+
+/* Scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

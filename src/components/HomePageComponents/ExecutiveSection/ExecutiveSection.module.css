@@ -1,16 +1,16 @@
 /* Executive Team styles */
 .team-section {
   padding: 3rem 4rem;
-  background-color: #f9f9f9;
+  background-color: white;
   color: #222;
 }
 
 .team-section h2 {
   text-align: center;
-  font-size: 3rem; /* balanced size */
+  font-size: 3rem;
   margin-bottom: 2rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #2c3e50;
   letter-spacing: 1px;
   position: relative;
   padding-bottom: 0.5rem;
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
   height: 3px;
   width: 40%;
-  background-color: #00ae4d; /* matches your theme green */
+  background-color: #00ae4d;
   border-radius: 2px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .team-member {
-  background: white;
+  background: #d8d8d3;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
   padding: 1.5rem;
@@ -65,7 +65,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #00ae4d; /* professional green border */
+  border: 3px solid #636363;
 }
 
 .team-member h3 {
