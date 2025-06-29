@@ -1,0 +1,54 @@
+/* Hero section styles */
+.hero {
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 70vh;
+  padding: 6rem 1rem;
+  background-color: #111;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('/public/img/homepage_background.jpg') right 60%/cover no-repeat;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4rem;
+}
+
+.hero h1 {
+  font-size: 8vh;         /* scales with viewport height */
+  margin-top: 20vh; /* 80% of viewport height */
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.tagline-banner {
+  font-size: 3vh;         /* smaller, scales with height */
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1vh 2vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  display: inline-block;
+  color: #222;
+  max-width: 100%;
+  white-space: normal;
+}

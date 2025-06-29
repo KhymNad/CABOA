@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Home } from './components';
+import { Home } from './pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';  // Import the NavBar
-import About from './components/About'; // Import About component
+import NavBar from './components/Navbar/NavBar';  // Import the NavBar
+import About from './pages/About'; // Import About component
 
 function App() {
   return (

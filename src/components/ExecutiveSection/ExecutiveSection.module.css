@@ -1,0 +1,83 @@
+/* Executive Team styles */
+.team-section {
+  padding: 3rem 4rem;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-size: 3rem; /* balanced size */
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.team-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 40%;
+  background-color: #00ae4d; /* matches your theme green */
+  border-radius: 2px;
+}
+
+.team-section h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  justify-items: center;
+}
+
+.team-member {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #00ae4d; /* professional green border */
+}
+
+.team-member h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.team-member p {
+  margin: 0;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.5rem;
+}
