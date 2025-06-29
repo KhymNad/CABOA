@@ -4,6 +4,8 @@
   max-width: 1500px;
   width: 1450px;
   margin: 0 auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   border-radius: 8px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
   overflow: hidden;
