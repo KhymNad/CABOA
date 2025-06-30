@@ -1,0 +1,49 @@
+.resourcesSection {
+  padding: 4rem 2rem;
+  background: #f7f9fc;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2c3e50;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 38%;
+  background-color: #00ae4d;
+  border-radius: 2px;
+}
+
+.subheading {
+  font-size: 1rem;
+  color: #777;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}

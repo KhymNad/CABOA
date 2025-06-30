@@ -1,0 +1,25 @@
+.card {
+  background: #e5e5e0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.icon {
+  color: #00ae4d;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #666;
+}

@@ -1,0 +1,48 @@
+.section {
+  background-color: #e5e5e0;
+  padding: 3rem 2rem;
+  margin-top: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.section h3 {
+  font-size: 1.25rem;
+  color: #00ae4d;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.section ul li {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.section a {
+  color: #007a35;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}

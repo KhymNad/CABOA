@@ -1,14 +1,12 @@
-function About() {
+import React from "react";
+import { ResourcesSection } from "../components"; 
+
+function Resources() {
   return (
-    <div className="about">
-      <h2>About CABOA</h2>
-      <p>
-        The Central Alberta Basketball Officials Association (CABOA) is dedicated to supporting and
-        developing basketball officials across the region. We provide training, resources, and
-        community for referees at all levels.
-      </p>
-    </div>
+    <main>
+      <ResourcesSection />
+    </main>
   );
 }
 
-export default About;
+export default Resources;
