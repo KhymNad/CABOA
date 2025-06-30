@@ -1,8 +1,9 @@
 import React from 'react';
+import { ContactSection } from '../components';
 
 function Contact() {
     return(
-        <h1>this is the cotact page</h1>
+        < ContactSection />
     )
 }
 

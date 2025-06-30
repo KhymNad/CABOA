@@ -7,5 +7,6 @@ export { default as CasmbaRules } from './ResourcesPageComponents/CasmbaRules/Ca
 export { default as ResourceCard } from './ResourcesPageComponents/ResourceCard/ResourceCard'
 export { default as ResourcesSection } from './ResourcesPageComponents/ResourcesSection/ResourceSection'
 export { default as RuleMods } from './ResourcesPageComponents/RuleMods/RuleMods'
+export { default as ContactSection } from './ContactPageComponenets/ContactSection/ContactSection'
 export { default as NavBar } from './Navbar/NavBar';
 export { default as Footer } from './Footer/Footer';

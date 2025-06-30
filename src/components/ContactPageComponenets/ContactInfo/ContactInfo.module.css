@@ -1,0 +1,17 @@
+.info {
+  flex: 1;
+  text-align: left;
+}
+
+.info h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.info p {
+  margin: 0.5rem 0;
+  color: #374151;
+  font-size: 1rem;
+}
