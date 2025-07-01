@@ -3,14 +3,14 @@ import { motion, useAnimation, useInView } from 'framer-motion';
 import styles from './ExecutiveSection.module.css';
 
 const teamMembers = [
-  { name: 'Josh Carothers', role: 'President', img: '/img/executives/josh.png', alt: 'Josh Carothers' },
-  { name: 'Damian Horner', role: 'Vice President', img: '/img/executives/DamianHorner.jpg', alt: 'Damian Horner' },
-  { name: 'Tamara Visser', role: 'Secretary', img: '/img/executives/tamara.jpg', alt: 'Tamara Visser' },
-  { name: 'Stanton Swain', role: 'Treasurer', img: '/img/executives/stanton.png', alt: 'Stanton Swain' },
-  { name: 'Darryl Armeneau', role: 'Education Chairman', img: '/img/executives/darryl.jpg', alt: 'Darryl Armeneau' },
-  { name: '(Vacant Position)', role: 'Evaluation Chairman', img: '/img/executives/ref2.webp', alt: 'Vacant Position' },
-  { name: 'Landon Campbell', role: 'Member-at-Large', img: '/img/executives/landon.jpg', alt: 'Landon Campbell' },
-  { name: 'Josh Carothers', role: 'Assignor', img: '/img/executives/josh.png', alt: 'Josh Carothers' },
+  { name: 'Josh Carothers', role: 'President', img: `${process.env.PUBLIC_URL}/img/executives/josh.png`, alt: 'Josh Carothers' },
+  { name: 'Damian Horner', role: 'Vice President', img: `${process.env.PUBLIC_URL}/img/executives/DamianHorner.jpg`, alt: 'Damian Horner' },
+  { name: 'Tamara Visser', role: 'Secretary', img: `${process.env.PUBLIC_URL}/img/executives/tamara.jpg`, alt: 'Tamara Visser' },
+  { name: 'Stanton Swain', role: 'Treasurer', img: `${process.env.PUBLIC_URL}/img/executives/stanton.png`, alt: 'Stanton Swain' },
+  { name: 'Darryl Armeneau', role: 'Education Chairman', img: `${process.env.PUBLIC_URL}/img/executives/darryl.jpg`, alt: 'Darryl Armeneau' },
+  { name: '(Vacant Position)', role: 'Evaluation Chairman', img: `${process.env.PUBLIC_URL}/img/executives/ref2.webp`, alt: 'Vacant Position' },
+  { name: 'Landon Campbell', role: 'Member-at-Large', img: `${process.env.PUBLIC_URL}/img/executives/landon.jpg`, alt: 'Landon Campbell' },
+  { name: 'Josh Carothers', role: 'Assignor', img: `${process.env.PUBLIC_URL}/img/executives/josh.png`, alt: 'Josh Carothers' },
 ];
 
 function TeamSection() {

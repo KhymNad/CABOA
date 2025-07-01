@@ -7,7 +7,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <div className={styles.logoContainer}>
         <Link to="/">
-          <img src="/img/caboa_logo.png" alt="CABOA Logo" className={styles.logo} />
+          <img src={`${process.env.PUBLIC_URL}/img/caboa_logo.png`} alt="CABOA Logo" className={styles.logo} />
         </Link>
       </div>
       <ul className={styles.navLinks}>

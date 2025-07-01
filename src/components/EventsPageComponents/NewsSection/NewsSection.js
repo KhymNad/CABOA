@@ -9,21 +9,21 @@ const articles = [
     link: 'https://www.reddeerexpress.com/sports/rigger-jason-chatwood-to-lead-st-joseph-baseball-academy/',
     source: 'Red Deer Express',
     date: 'April 05, 2018',
-    image: '/img/news/baseball.png',
+    image: `${process.env.PUBLIC_URL}/img/news/baseball.png`,
   },
   {
     title: 'Chatwood ready to hit home run with baseball and softball academy',
     link: 'https://www.reddeeradvocate.com/sports/chatwood-ready-to-hit-home-run-with-baseball-and-softball-academy/',
     source: 'Red Deer Advocate',
     date: 'March 20, 2018',
-    image: '/img/news/baseball.png',
+    image: `${process.env.PUBLIC_URL}/img/news/baseball.png`,
   },
   {
     title: 'DINOS HALL OF FAME: Veronica Den Oudsten, Basketball',
     link: 'http://www.godinos.com/hof.aspx?hof=27&mobile=skip',
     source: 'University of Calgary Dinos',
     date: '2014',
-    image: '/img/news/dinos_news.png',
+    image: `${process.env.PUBLIC_URL}/img/news/dinos_news.png`,
   },
 ];
 

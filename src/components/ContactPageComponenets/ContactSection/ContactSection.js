@@ -48,7 +48,7 @@ import ContactInfo from '../ContactInfo/ContactInfo';
             <div className={styles.content}>
             <div className={styles.content_left}>
                 <ContactInfo />
-                <img src="/img/caboa_logo.png" alt="CABOA Logo" className={styles.logo} />
+                <img src={`${process.env.PUBLIC_URL}/img/caboa_logo.png`} alt="CABOA Logo" className={styles.logo} />
             </div>
             <ContactForm />
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Home, Resources, Events, Contact } from './pages';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Footer, NavBar, ScrollToTop } from './components';
 
 function App() {
