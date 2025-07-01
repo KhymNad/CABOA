@@ -24,7 +24,7 @@ function Footer() {
 
         <div className={styles.contact}>
           <h4>Contact</h4>
-          <p>Email: ref.caboa@gmail.com</p>
+          <p>Email: caboa.edu.chair@gmail.com</p>
           <p>Address: Central Alberta, Canada</p>
         </div>
 

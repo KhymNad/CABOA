@@ -1,42 +1,42 @@
 .contactSection {
-  padding: 1rem 2rem;
-  padding-bottom: 3rem;
-  background-color: #f9f9f9;
-  text-align: center;
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
 .container {
-  max-width: 1300px;
-  margin: 0 auto;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .heading {
-  text-align: center;
-  font-size: 2.25rem;
-  margin-bottom: 2rem;
-  font-weight: 700;
-  color: #2c3e50;
-  letter-spacing: 1px;
-  position: relative;
-  padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 0.5rem;
 }
 
 .heading::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 20%;
-  background-color: #00ae4d;
-  border-radius: 2px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 17%;
+    background-color: #00ae4d;
+    border-radius: 2px;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .content_left {
@@ -46,9 +46,9 @@
 }
 
 @media (min-width: 768px) {
-  .content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
