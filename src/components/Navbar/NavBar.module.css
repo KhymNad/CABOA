@@ -62,3 +62,17 @@
 .navLinks li a:hover::after {
   width: 100%;
 }
+
+.navLinks li .activeLink {
+  color: #00ae4d;
+}
+
+.navLinks li .activeLink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #00ae4d;
+}
