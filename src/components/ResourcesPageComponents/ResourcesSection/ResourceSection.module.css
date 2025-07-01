@@ -17,22 +17,19 @@
 .title {
   font-size: 2.25rem;
   font-weight: 700;
-  margin-bottom: 2rem;
-  text-align: center;
   color: #2c3e50;
+  text-align: center;
   position: relative;
   padding-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.underline {
   height: 4px;
-  width: 38%;
+  width: 38%; /* matches your title underline width */
+  margin: 0 auto 0rem auto;
   background-color: #00ae4d;
+  transform-origin: left;
   border-radius: 2px;
 }
 

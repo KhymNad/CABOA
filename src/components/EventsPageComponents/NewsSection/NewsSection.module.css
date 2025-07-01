@@ -19,16 +19,19 @@
   margin-bottom: 0.25rem;
 }
 
-.title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.headerWrapper {
+  position: relative;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.underline {
   height: 4px;
   width: 22%;
   background-color: #00ae4d;
   border-radius: 2px;
+  margin: 0 auto;
+  transform-origin: left;
 }
 
 .subtitle {

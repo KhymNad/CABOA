@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-// import { motion } from 'framer-motion';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, useAnimation, useInView } from 'framer-motion';
 import styles from './EventsSection.module.css';
 import EventCard from '../EventCard/EventCard.js';
 
@@ -42,9 +42,51 @@ const events = [
 function EventsSection() {
   const [hovering, setHovering] = useState(false);
 
+  // Animation controls for heading and underline
+  const headingControls = useAnimation();
+  const lineControls = useAnimation();
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: '-100px' });
+
+  useEffect(() => {
+    if (isInView) {
+      const animate = async () => {
+        await lineControls.start({
+          scaleX: 1,
+          transition: { duration: 0.5, ease: 'easeInOut' },
+        });
+
+        await headingControls.start({
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.6, ease: 'easeOut' },
+        });
+      };
+
+      animate();
+    }
+  }, [isInView, lineControls, headingControls]);
+
   return (
-    <section className={styles.eventsSection}>
-      <h2 className={styles.title}>Upcoming Events</h2>
+    <section className={styles.eventsSection} ref={ref}>
+      <motion.div
+        className={styles.headerWrapper}
+      >
+        <motion.h2
+          className={styles.title}
+          initial={{ opacity: 0, y: 20 }}
+          animate={headingControls}
+        >
+          Upcoming Events
+        </motion.h2>
+        <motion.div
+          className={styles.underline}
+          initial={{ scaleX: 0 }}
+          animate={lineControls}
+        />
+
+      </motion.div>
+
       <div
         className={`${styles.carousel} ${hovering ? styles.paused : ''}`}
         onMouseEnter={() => setHovering(true)}

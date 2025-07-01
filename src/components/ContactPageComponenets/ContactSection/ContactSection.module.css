@@ -11,27 +11,23 @@
 }
 
 .heading {
-    text-align: center;
     font-size: 2.25rem;
-    margin-bottom: 2rem;
     font-weight: 700;
     color: #2c3e50;
-    letter-spacing: 1px;
+    text-align: center;
     position: relative;
     padding-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
-.heading::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    .underline {
     height: 4px;
-    width: 17%;
     background-color: #00ae4d;
     border-radius: 2px;
-}
+    margin: 0 auto 2rem auto;
+    width: 17%;
+    transform-origin: left;
+    }
 
 .content {
     display: flex;
