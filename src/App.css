@@ -3,7 +3,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f9f9f9;
   color: #111;
-  padding-top: 70px; /* assuming you have a fixed navbar */
+  padding-top: 70px;
 }
 
 /* Main layout wrapper */

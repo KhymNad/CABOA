@@ -1,10 +1,11 @@
-import { EventsSection, NewsSection } from '../components';
+import { EventsSection, NewsSection, CallToAction } from '../components';
 
 function Events() {
   return (
     <>
       <EventsSection />
       <NewsSection />
+      <CallToAction />
     </>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
-import { ResourcesSection } from "../components"; 
+import { ResourcesSection, CallToAction } from "../components"; 
 
 function Resources() {
   return (
     <main>
       <ResourcesSection />
+      <CallToAction />
     </main>
   );
 }
