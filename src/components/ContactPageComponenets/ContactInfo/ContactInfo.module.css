@@ -1,17 +1,33 @@
 .info {
   flex: 1;
-  text-align: left;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .info h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  color: #1f2937;
   margin-bottom: 1rem;
-  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
 }
 
-.info p {
-  margin: 0.5rem 0;
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li {
+  margin-bottom: 1rem;
   color: #374151;
   font-size: 1rem;
+}
+
+.info span {
+  font-weight: 500;
+  color: #111827;
 }

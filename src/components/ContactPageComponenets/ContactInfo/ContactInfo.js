@@ -4,10 +4,18 @@ import styles from './ContactInfo.module.css';
 function ContactInfo() {
   return (
     <div className={styles.info}>
-      <h3>Contact Details</h3>
-      <p><strong>Email:</strong> caboa.edu.chair@gmail.com</p>
-      <p><strong>League Contact:</strong> caboa.malarge@gmail.com</p>
-      <p><strong>Location:</strong> Central Alberta, Canada</p>
+      <h3>Contact Information</h3>
+      <ul>
+        <li>
+          <span>Email:</span> caboa.edu.chair@gmail.com
+        </li>
+        <li>
+          <span>League Contact:</span> caboa.malarge@gmail.com
+        </li>
+        <li>
+          <span>Location:</span> Central Alberta, Canada
+        </li>
+      </ul>
     </div>
   );
 }
