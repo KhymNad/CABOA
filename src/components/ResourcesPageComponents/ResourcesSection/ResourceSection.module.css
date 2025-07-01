@@ -45,3 +45,10 @@
   gap: 2rem;
   margin-bottom: 3rem;
 }
+
+.linkCard {
+  text-decoration: none;
+  color: inherit;       
+  display: inline-block;
+  cursor: pointer;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './ResourceCard.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClipboard, faLaptop, faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faClipboard, faPlay, faBook } from '@fortawesome/free-solid-svg-icons';
 
 const iconMap = {
   clipboard: faClipboard,
-  laptop: faLaptop,
+  book: faBook,
   play: faPlay,
 };
 

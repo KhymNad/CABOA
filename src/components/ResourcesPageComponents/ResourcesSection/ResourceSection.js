@@ -13,10 +13,10 @@ const resourceItems = [
       'Study guides, sample questions, and prep material to help you succeed in officiating exams.',
   },
   {
-    icon: 'laptop',
-    title: 'FIBA Documents',
-    description:
-      'Access FIBA guidelines, rulebooks, and educational documents for certified officials.',
+    icon: 'book',
+    title: '2024 CABOA Member Handbook',
+    description: 'Click to view the official member handbook PDF.',
+    link: 'https://caboa.ca/files/CABOAMemberHandbook2024.pdf',
   },
   {
     icon: 'play',
@@ -73,12 +73,28 @@ export default function ResourcesSection() {
 
         <div className={styles.cards}>
           {resourceItems.map((item, idx) => (
-            <ResourceCard
-              key={idx}
-              icon={item.icon}
-              title={item.title}
-              description={item.description}
-            />
+            item.link ? (
+              <a
+                key={idx}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.linkCard} // optional styling for links
+              >
+                <ResourceCard
+                  icon={item.icon}
+                  title={item.title}
+                  description={item.description}
+                />
+              </a>
+            ) : (
+              <ResourceCard
+                key={idx}
+                icon={item.icon}
+                title={item.title}
+                description={item.description}
+              />
+            )
           ))}
         </div>
 
