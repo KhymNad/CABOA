@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { motion, useAnimation, useInView } from 'framer-motion';
 import styles from './ExecutiveSection.module.css';
 
 const teamMembers = [
@@ -13,10 +14,50 @@ const teamMembers = [
 ];
 
 function TeamSection() {
+  const headingControls = useAnimation();
+  const lineControls = useAnimation();
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: '-100px' }); // triggers slightly before fully in view
+
+  useEffect(() => {
+    if (isInView) {
+      const animate = async () => {
+        await lineControls.start({
+          scaleX: 1,
+          transition: { duration: 0.5, ease: 'easeInOut' },
+        });
+
+        await headingControls.start({
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.6, ease: 'easeOut' },
+        });
+      };
+
+      animate();
+    }
+  }, [isInView, lineControls, headingControls]);
+
   return (
-    <section className={styles['team-section']}>
-      <h2>2024 - 2025 Executives</h2>
+    <section className={styles['team-section']} ref={ref}>
+      <div className={styles.headerWrapper}>
+        <motion.h2
+          className={styles.heading}
+          initial={{ opacity: 0, y: 20 }}
+          animate={headingControls}
+        >
+          2024 - 2025 Executives
+        </motion.h2>
+        <motion.div
+          className={styles.underline}
+          initial={{ scaleX: 0 }}
+          animate={lineControls}
+        />
+      </div>
+
       <h3>"Represent the interest of basketball officials in Alberta"</h3>
+
       <div className={styles['team-grid']}>
         {teamMembers.map(({ name, role, img, alt }, index) => (
           <div className={styles['team-member']} key={index}>

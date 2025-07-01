@@ -5,29 +5,34 @@
   color: #222;
 }
 
-.team-section h2 {
+/* Wrapper for heading and underline */
+.headerWrapper {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Animated heading */
+.heading {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 2rem;
   font-weight: 700;
   color: #2c3e50;
   letter-spacing: 1px;
-  position: relative;
-  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.team-section h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+/* Animated underline */
+.underline {
   height: 4px;
-  width: 40%;
+  width: 45%;
+  margin: 0 auto 1rem auto;
   background-color: #00ae4d;
+  transform-origin: left;
   border-radius: 2px;
 }
 
+/* Subheading below the main title */
 .team-section h3 {
   text-align: center;
   font-size: 1.5rem;
@@ -37,6 +42,7 @@
   font-style: italic;
 }
 
+/* Grid of team members */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,6 +50,7 @@
   justify-items: center;
 }
 
+/* Individual team member card */
 .team-member {
   background: #e5e5e0;
   border-radius: 8px;
@@ -59,6 +66,7 @@
   transform: translateY(-5px);
 }
 
+/* Team member image styling */
 .team-member img {
   width: 220px;
   height: 220px;
@@ -68,6 +76,7 @@
   border: 3px solid #636363;
 }
 
+/* Name styling */
 .team-member h3 {
   margin: 0.5rem 0 0.2rem;
   font-size: 1.8rem;
@@ -75,6 +84,7 @@
   color: #111;
 }
 
+/* Role styling */
 .team-member p {
   margin: 0;
   font-weight: 400;
