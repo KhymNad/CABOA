@@ -13,7 +13,6 @@ function Footer() {
         </div>
 
         <div className={styles.links}>
-          <h4>Quick Links</h4>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/resources">Resources</a></li>

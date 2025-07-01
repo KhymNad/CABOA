@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import { Home, Resources, Events, Contact } from './pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Footer, NavBar } from './components';
+import { Footer, NavBar, ScrollToTop } from './components';
 
 function App() {
   return (
     <Router>
       <div className="page-wrapper">
+        <ScrollToTop />
         <NavBar />
-
         <main className="content">
           <Routes>
             <Route path="/" element={<Home />} />
