@@ -11,7 +11,6 @@ The official website for the **Central Alberta Basketball Officials Association 
 ## 📸 Preview
 
 ![CABOA Website Screenshot](./public/img/preview.png)
-> Replace this with a real screenshot of your site
 
 ---
 
