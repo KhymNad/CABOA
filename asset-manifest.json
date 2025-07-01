@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/KhymNad/CABOA/static/css/main.45cd77b4.css",
-    "main.js": "/KhymNad/CABOA/static/js/main.62339762.js",
-    "static/js/453.9cdb139c.chunk.js": "/KhymNad/CABOA/static/js/453.9cdb139c.chunk.js",
-    "static/media/homepage_background.jpg": "/KhymNad/CABOA/static/media/homepage_background.fc18e503541f3185cafa.jpg",
-    "index.html": "/KhymNad/CABOA/index.html",
-    "main.45cd77b4.css.map": "/KhymNad/CABOA/static/css/main.45cd77b4.css.map",
-    "main.62339762.js.map": "/KhymNad/CABOA/static/js/main.62339762.js.map",
-    "453.9cdb139c.chunk.js.map": "/KhymNad/CABOA/static/js/453.9cdb139c.chunk.js.map"
+    "main.css": "/CABOA/static/css/main.224e9fd7.css",
+    "main.js": "/CABOA/static/js/main.ab41974e.js",
+    "static/js/453.9cdb139c.chunk.js": "/CABOA/static/js/453.9cdb139c.chunk.js",
+    "static/media/homepage_background.jpg": "/CABOA/static/media/homepage_background.fc18e503541f3185cafa.jpg",
+    "index.html": "/CABOA/index.html",
+    "main.224e9fd7.css.map": "/CABOA/static/css/main.224e9fd7.css.map",
+    "main.ab41974e.js.map": "/CABOA/static/js/main.ab41974e.js.map",
+    "453.9cdb139c.chunk.js.map": "/CABOA/static/js/453.9cdb139c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45cd77b4.css",
-    "static/js/main.62339762.js"
+    "static/css/main.224e9fd7.css",
+    "static/js/main.ab41974e.js"
   ]
 }
