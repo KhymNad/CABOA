@@ -1,12 +1,10 @@
 .eventsSection {
   padding: 1rem 1rem;
   background-color: #f9f9f9;
-  max-width: 1500px;
-  width: 1450px;
+  width: 90vw;
   margin: 0 auto;
-  padding-bottom: 1rem;
   border-radius: 8px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+  padding-bottom: 0rem;
   overflow: hidden;
 }
 
