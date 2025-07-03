@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CABOA/static/css/main.224e9fd7.css",
+    "main.css": "/CABOA/static/css/main.ec62b250.css",
     "main.js": "/CABOA/static/js/main.2cb96764.js",
     "static/js/453.9cdb139c.chunk.js": "/CABOA/static/js/453.9cdb139c.chunk.js",
     "static/media/homepage_background.jpg": "/CABOA/static/media/homepage_background.fc18e503541f3185cafa.jpg",
     "index.html": "/CABOA/index.html",
-    "main.224e9fd7.css.map": "/CABOA/static/css/main.224e9fd7.css.map",
+    "main.ec62b250.css.map": "/CABOA/static/css/main.ec62b250.css.map",
     "main.2cb96764.js.map": "/CABOA/static/js/main.2cb96764.js.map",
     "453.9cdb139c.chunk.js.map": "/CABOA/static/js/453.9cdb139c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.224e9fd7.css",
+    "static/css/main.ec62b250.css",
     "static/js/main.2cb96764.js"
   ]
 }
