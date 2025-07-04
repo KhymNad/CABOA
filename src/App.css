@@ -18,3 +18,10 @@ body {
 .content {
   flex: 1;
 }
+
+/* On mobile, increase padding to approximate expanded navbar height */
+@media (max-width: 768px) {
+  .content {
+    padding-top: 4rem;
+  }
+}
