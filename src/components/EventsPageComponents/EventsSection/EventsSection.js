@@ -19,22 +19,22 @@ const events = [
   {
     id: 2,
     title: 'CABOA Annual Meeting',
-    date: 'July 15, 2025',
-    location: 'Central Alberta Community Hall',
+    date: '',
+    location: '',
     description: 'Join us for the annual CABOA meeting and awards ceremony.'
   },
   {
     id: 3,
     title: 'Referee Training Workshop',
-    date: 'August 3, 2025',
-    location: 'Sports Complex Room 2',
+    date: '',
+    location: '',
     description: 'Improve your skills with expert-led training sessions.'
   },
   {
     id: 4,
     title: 'Season Kickoff Game',
-    date: 'September 1, 2025',
-    location: 'Central Alberta Gymnasium',
+    date: '',
+    location: '',
     description: 'Opening game of the season, all officials welcome!'
   }
 ];

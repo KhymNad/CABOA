@@ -4,6 +4,7 @@ body {
   background: #f9f9f9;
   color: #111;
   padding-top: 70px;
+  overflow-x: hidden;
 }
 
 /* Main layout wrapper */

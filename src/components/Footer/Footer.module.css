@@ -3,6 +3,8 @@
   color: #ddd;
   padding: 3rem 1.5rem 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  overflow: hidden;
 }
 
 .container {

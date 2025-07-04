@@ -3,6 +3,7 @@
   padding: 3rem 4rem;
   background-color: #f9f9f9;
   color: #222;
+  overflow: hidden;
 }
 
 /* Wrapper for heading and underline */
@@ -46,7 +47,7 @@
 /* Grid of team members */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2.5rem;
   justify-items: center;
 }
@@ -91,4 +92,10 @@
   font-weight: 400;
   color: #555;
   font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }
