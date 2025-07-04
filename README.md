@@ -20,7 +20,7 @@ The official website for the **Central Alberta Basketball Officials Association 
 - **React Router DOM** (v6+ for SPA routing)
 - **Framer Motion** (for scroll-triggered and UI animations)
 - **CSS Modules** (component-scoped styles)
-- **GitHub Pages** (for deployment)
+- **Firebase** (for deployment)
 
 ---
 
@@ -34,7 +34,7 @@ The official website for the **Central Alberta Basketball Officials Association 
 - ✅ Auto-scrolling event carousel (with pause on hover)
 - ✅ Dynamic team and news sections using data arrays
 - ✅ Responsive layout and interactive design
-- ✅ Deploys to GitHub Pages with ease
+- ✅ Deploys to Firebase with ease
 
 ---
 
