@@ -16,7 +16,7 @@ const resourceItems = [
     icon: 'book',
     title: '2024 CABOA Member Handbook',
     description: 'Click to view the official member handbook PDF.',
-    link: 'https://caboa.ca/files/CABOAMemberHandbook2024.pdf',
+    link: '/files/CABOAMemberHandbook2024.pdf',
   },
   {
     icon: 'play',
